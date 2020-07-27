@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/liu20115342/homepage/issues"
   },
-  "homepage": "https://github.com/liu20115342/homepage#readme"
+  "homepage": "https://github.com/liu20115342/homepage#readme",
+  "dependencies": {
+    "koa": "^2.13.0"
+  }
 }
