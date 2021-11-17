@@ -1,23 +1,26 @@
 {
-  "name": "homepage",
-  "version": "1.0.0",
-  "description": "首页",
-  "main": "index.js",
+  "name": "my-app",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liu20115342/homepage.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liu20115342/homepage/issues"
-  },
-  "homepage": "https://github.com/liu20115342/homepage#readme",
   "dependencies": {
-    "koa": "^2.13.0"
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "@types/react": "17.0.35",
+    "@zeit/next-css": "^1.0.1",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "next-purgecss": "^4.0.0",
+    "postcss-preset-env": "^7.0.0",
+    "tailwindcss": "^2.2.19",
+    "typescript": "4.4.4"
   }
 }
